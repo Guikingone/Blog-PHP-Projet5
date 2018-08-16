@@ -54,6 +54,8 @@ class View
     }
 
 
+    // Maybe the check can be done _before_ the view generation ? 
+    // Maybe the controller is way more capable of handling this check ? ;)
     private function check($value)
     {
         // Convertit les caractères spéciaux en entités HTML
